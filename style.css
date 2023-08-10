@@ -41,6 +41,17 @@ section {
     text-transform: capitalize;
 }
 
+footer {
+    position: fixed;
+    inset: auto 0 0 0;
+    background-color: black;
+    padding: 0.4rem 2rem;
+}
+
+footer a {
+    color: #fff;
+}
+
 @media only screen and (max-width: 600) {
     .count {
         font-size: large;
@@ -49,5 +60,9 @@ section {
 
     .count-title {
         font-size: medium;
+    }
+
+    footer {
+        padding-left: 1rem;
     }
 }
